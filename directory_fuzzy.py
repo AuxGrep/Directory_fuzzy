@@ -110,7 +110,7 @@ def web_directory(target, wordlist):
         console.print("[red]No valid directories found.[/]")
 
 def main():
-    parser = argparse.ArgumentParser(description="Advanced Web Directory Scanner v1.0 || Author: AuxGrep")
+    parser = argparse.ArgumentParser(description="Directory Fuzzy v1.0 || Author: AuxGrep")
     parser.add_argument("-u", "--url", required=True, help="Target URL (e.g., https://example.com)")
     parser.add_argument("-w", "--wordlist", required=True, help="Path to local file or URL (e.g., http://example.com/wordlist.txt)")
     args = parser.parse_args()
